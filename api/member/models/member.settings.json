@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 100
+    }
+  }
+}
