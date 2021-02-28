@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "name": "city",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 100,
+      "unique": true
+    },
+    "title_eng": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 3,
+      "unique": true
+    }
+  }
+}
