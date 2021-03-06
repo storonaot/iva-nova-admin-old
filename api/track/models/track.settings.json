@@ -30,6 +30,10 @@
     "album": {
       "via": "tracks",
       "model": "album"
+    },
+    "onMainPage": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
