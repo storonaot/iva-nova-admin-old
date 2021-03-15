@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_links",
+  "info": {
+    "name": "media-link"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true,
+      "regex": "(^\\s*$|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "iTunes",
+        "yaMusic"
+      ],
+      "required": true,
+      "unique": true
+    }
+  }
+}
