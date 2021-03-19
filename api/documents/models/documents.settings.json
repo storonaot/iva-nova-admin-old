@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "documents",
   "info": {
-    "name": "documents",
+    "name": "document",
     "description": ""
   },
   "options": {

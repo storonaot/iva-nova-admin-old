@@ -40,6 +40,33 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "main_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "specialization_eng": {
+      "type": "string",
+      "required": true
+    },
+    "full_name_eng": {
+      "type": "string",
+      "required": true
+    },
+    "description_eng": {
+      "type": "richtext",
+      "required": true
+    },
+    "active_periods": {
+      "type": "string"
+    },
+    "city_of_birth": {
+      "model": "city"
     }
   }
 }
