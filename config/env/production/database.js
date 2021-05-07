@@ -1,0 +1,18 @@
+module.exports = ({ env }) => ({
+  defaultConnection: 'default',
+  connections: {
+    default: {
+      connector: 'bookshelf',
+      settings: {
+        client: 'postgres',
+        host: env('DATABASE_HOST', '127.0.0.1'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'iva-nova'),
+        username: env('DATABASE_USERNAME', 'iva-nova'),
+        password: env('DATABASE_PASSWORD', '1PDN80PfR_m-LjngcADCpagAwPDf_Gxk'),
+        ssl: env.bool('DATABASE_SSL', false),
+      },
+      options: {}
+    },
+  },
+});
