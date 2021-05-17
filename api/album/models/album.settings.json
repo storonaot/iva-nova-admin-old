@@ -15,12 +15,12 @@
       "type": "string"
     },
     "tracks": {
-      "collection": "track",
-      "via": "album"
+      "via": "album",
+      "collection": "track"
     },
     "title_eng": {
       "type": "string",
-      "required": true,
+      "required": false,
       "minLength": 3,
       "maxLength": 100
     },
@@ -30,7 +30,7 @@
     },
     "description_eng": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "short_description": {
       "type": "text",
@@ -38,7 +38,7 @@
     },
     "short_description_eng": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "date": {
       "type": "date",

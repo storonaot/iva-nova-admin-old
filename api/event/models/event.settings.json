@@ -19,7 +19,7 @@
     },
     "title_eng": {
       "type": "string",
-      "required": true,
+      "required": false,
       "minLength": 3,
       "maxLength": 100
     },

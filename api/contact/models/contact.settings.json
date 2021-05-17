@@ -21,7 +21,7 @@
       "type": "string",
       "minLength": 3,
       "maxLength": 100,
-      "required": true
+      "required": false
     },
     "position": {
       "type": "string",
@@ -31,7 +31,7 @@
     },
     "position_eng": {
       "type": "string",
-      "required": true,
+      "required": false,
       "maxLength": 100,
       "minLength": 3
     },

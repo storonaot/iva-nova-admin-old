@@ -20,7 +20,7 @@
     "audio_src": {
       "type": "string",
       "regex": "(^\\s*$|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})",
-      "required": true
+      "required": false
     },
     "ordinal_number": {
       "type": "integer",
@@ -28,8 +28,8 @@
       "min": 1
     },
     "album": {
-      "via": "tracks",
-      "model": "album"
+      "model": "album",
+      "via": "tracks"
     },
     "onMainPage": {
       "type": "boolean",

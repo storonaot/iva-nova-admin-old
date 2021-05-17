@@ -52,15 +52,15 @@
     },
     "specialization_eng": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "full_name_eng": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description_eng": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "active_periods": {
       "type": "string"
