@@ -66,7 +66,8 @@
       "type": "string"
     },
     "place_of_birth": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "place_of_birth_eng": {
       "type": "string"
