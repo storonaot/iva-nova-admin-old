@@ -68,12 +68,6 @@
     "description_eng": {
       "type": "richtext",
       "required": false
-    },
-    "place_of_birth": {
-      "type": "string"
-    },
-    "place_of_birth_eng": {
-      "type": "string"
     }
   }
 }

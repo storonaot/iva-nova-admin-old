@@ -65,8 +65,11 @@
     "active_periods": {
       "type": "string"
     },
-    "city_of_birth": {
-      "model": "city"
+    "place_of_birth": {
+      "type": "string"
+    },
+    "place_of_birth_eng": {
+      "type": "string"
     }
   }
 }
