@@ -17,23 +17,11 @@
       "minLength": 3,
       "maxLength": 100
     },
-    "name_eng": {
-      "type": "string",
-      "minLength": 3,
-      "maxLength": 100,
-      "required": false
-    },
     "position": {
       "type": "string",
       "required": true,
       "minLength": 3,
       "maxLength": 100
-    },
-    "position_eng": {
-      "type": "string",
-      "required": false,
-      "maxLength": 100,
-      "minLength": 3
     },
     "phone_number": {
       "type": "string"
@@ -48,7 +36,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }

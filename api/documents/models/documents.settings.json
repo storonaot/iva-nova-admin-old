@@ -17,12 +17,6 @@
       "minLength": 3,
       "maxLength": 100
     },
-    "title_eng": {
-      "type": "string",
-      "required": false,
-      "minLength": 3,
-      "maxLength": 100
-    },
     "source_file": {
       "model": "file",
       "via": "related",
@@ -30,7 +24,8 @@
         "files"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "source_link": {
       "type": "string",

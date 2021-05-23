@@ -18,27 +18,13 @@
       "via": "album",
       "collection": "track"
     },
-    "title_eng": {
-      "type": "string",
-      "required": false,
-      "minLength": 3,
-      "maxLength": 100
-    },
     "description": {
       "type": "richtext",
       "required": true
     },
-    "description_eng": {
-      "type": "richtext",
-      "required": false
-    },
     "short_description": {
       "type": "text",
       "required": true
-    },
-    "short_description_eng": {
-      "type": "text",
-      "required": false
     },
     "date": {
       "type": "date",

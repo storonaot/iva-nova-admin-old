@@ -52,27 +52,12 @@
       "required": true,
       "pluginOptions": {}
     },
-    "specialization_eng": {
-      "type": "string",
-      "required": false
-    },
-    "full_name_eng": {
-      "type": "string",
-      "required": false
-    },
-    "description_eng": {
-      "type": "richtext",
-      "required": false
-    },
     "active_periods": {
       "type": "string"
     },
     "place_of_birth": {
       "type": "string",
       "required": false
-    },
-    "place_of_birth_eng": {
-      "type": "string"
     }
   }
 }

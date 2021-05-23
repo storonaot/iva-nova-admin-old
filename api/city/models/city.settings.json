@@ -17,13 +17,6 @@
       "minLength": 3,
       "maxLength": 100,
       "unique": true
-    },
-    "title_eng": {
-      "type": "string",
-      "required": false,
-      "maxLength": 100,
-      "minLength": 3,
-      "unique": true
     }
   }
 }

@@ -17,12 +17,6 @@
       "minLength": 3,
       "required": true
     },
-    "title_eng": {
-      "type": "string",
-      "required": false,
-      "minLength": 3,
-      "maxLength": 100
-    },
     "date": {
       "type": "datetime",
       "required": true

@@ -18,7 +18,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "photos": {
       "collection": "file",
@@ -27,7 +28,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "description_short": {
       "type": "string",
@@ -35,39 +37,19 @@
       "minLength": 3,
       "maxLength": 300
     },
-    "description_short_eng": {
-      "type": "string",
-      "maxLength": 300,
-      "minLength": 3,
-      "required": false
-    },
     "title": {
       "type": "string",
       "required": true,
       "minLength": 3,
       "maxLength": 100
     },
-    "title_eng": {
-      "type": "string",
-      "required": false,
-      "maxLength": 100,
-      "minLength": 3
-    },
     "history": {
       "type": "richtext",
       "required": true
     },
-    "history_eng": {
-      "type": "richtext",
-      "required": false
-    },
     "description": {
       "type": "richtext",
       "required": true
-    },
-    "description_eng": {
-      "type": "richtext",
-      "required": false
     }
   }
 }
