@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', '127.0.0.1'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'storonaot'),
-        username: env('DATABASE_USERNAME', ''),
+        username: env('DATABASE_USERNAME', 'storonaot'),
         password: env('DATABASE_PASSWORD', ''),
       },
       options: {
