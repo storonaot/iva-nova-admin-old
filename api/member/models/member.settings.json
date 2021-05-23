@@ -39,7 +39,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "main_photo": {
       "model": "file",
@@ -48,7 +49,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "specialization_eng": {
       "type": "string",
@@ -67,7 +69,7 @@
     },
     "place_of_birth": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "place_of_birth_eng": {
       "type": "string"

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/social-networks",
-      "handler": "social-network.find",
+      "path": "/photos",
+      "handler": "photos.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/social-networks/count",
-      "handler": "social-network.count",
+      "path": "/photos/count",
+      "handler": "photos.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/social-networks/:id",
-      "handler": "social-network.findOne",
+      "path": "/photos/:id",
+      "handler": "photos.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/social-networks",
-      "handler": "social-network.create",
+      "path": "/photos",
+      "handler": "photos.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/social-networks/:id",
-      "handler": "social-network.update",
+      "path": "/photos/:id",
+      "handler": "photos.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/social-networks/:id",
-      "handler": "social-network.delete",
+      "path": "/photos/:id",
+      "handler": "photos.delete",
       "config": {
         "policies": []
       }
