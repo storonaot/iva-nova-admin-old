@@ -28,8 +28,8 @@
       "min": 1
     },
     "album": {
-      "model": "album",
-      "via": "tracks"
+      "via": "tracks",
+      "model": "album"
     },
     "audio": {
       "model": "file",
