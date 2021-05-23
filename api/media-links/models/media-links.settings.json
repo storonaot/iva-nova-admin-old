@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "media_links",
   "info": {
-    "name": "media-links"
+    "name": "media-links",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,12 +14,14 @@
     "itunes_src": {
       "type": "string",
       "regex": "(^\\s*$|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})",
-      "required": true
+      "required": true,
+      "default": "https://vk.com/"
     },
     "ya_music_src": {
       "type": "string",
       "regex": "(^\\s*$|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})",
-      "required": true
+      "required": true,
+      "default": "https://vk.com/"
     }
   }
 }
