@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "media_links",
+  "info": {
+    "name": "media_links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itunes_src": {
+      "type": "string",
+      "required": true
+    },
+    "ya_music_src": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
