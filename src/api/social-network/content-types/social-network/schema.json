@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_networks",
+  "info": {
+    "singularName": "social-network",
+    "pluralName": "social-networks",
+    "displayName": "Social-network",
+    "name": "social-network"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vk_src": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "fb_src": {
+      "type": "string",
+      "required": true
+    },
+    "youtube_src": {
+      "type": "string",
+      "required": true
+    },
+    "insta_src": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

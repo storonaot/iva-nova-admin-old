@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracks",
+  "info": {
+    "singularName": "track",
+    "pluralName": "tracks",
+    "displayName": "Track",
+    "name": "track"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "ordinal_number": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "album": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::album.album",
+      "inversedBy": "tracks"
+    }
+  }
+}
